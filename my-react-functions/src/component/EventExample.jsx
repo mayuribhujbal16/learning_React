@@ -50,6 +50,6 @@ const EventExample = () => {
 
 
         </>
-    )
-}
+    );
+};
 export default EventExample

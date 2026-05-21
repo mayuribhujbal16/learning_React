@@ -14,6 +14,8 @@ const ConditionalStatement = () => {
         )
     }
     const isAdminOrUser = false;
+    const marks = 35;
+    const items = [1,2,3];
 
     return(
         <>
@@ -33,6 +35,23 @@ const ConditionalStatement = () => {
 
             <h2>Ex3 hide containt based on condition</h2>
             {hasPermission ? <p>Access granted</p> : <p>Access Denied</p>}
+            <hr/>
+
+            <h2>Marks Result</h2>
+            <h2 style={{color:marks>=35 ? "green" : "red",
+                fontWeight:900,
+                fontSize:30 
+            }}>{marks>=35 ? "pass" : "fail"}</h2>
+            <hr/>
+
+            <h2>Shows length of items</h2>
+            <h2>{items.length > 0 ? `Length of items: ${items.length}` : "Null"}</h2>
+            {/* {items.length>0 ? (
+                <p>U have {items.length} items</p>
+            ) : (
+                <p>U have no items</p>
+            )} */}
+            <hr/>
 
         </div>
         </>

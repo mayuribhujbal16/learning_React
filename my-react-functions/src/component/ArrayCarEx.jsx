@@ -12,4 +12,6 @@ function CarListArray() {
         <hr/>
         
         </>
-export default CarListArray       
+    )
+}
+export default CarListArray;       
