@@ -9,6 +9,7 @@ import ConditionalStatement from './component/ConditionalStatement'
 import MessageProps from './component/MessageProps'
 import {StudentProps, PassingBoolean, PassingObject, PassingArray } from './component/StudentProps'
 import CardProps from './component/CardProps'
+import AccordionEx from './component/AccordionEx'
 
 
 
@@ -38,41 +39,72 @@ function App() {
           <StudentProps name="Mayuri" age={21} city="Pune"/>
           <hr/>
           <StudentProps name="Pallavi" age={20} city="Delhi"/>
+           <hr/>
         </div>
       </div>
 
       <hr/> 
 
-      {/* <div className="container">
+      <div className="container">
+        <h2>Card Props</h2>
+
         <div className="row">
           <div className="col-md-4">
             <CardProps
-            title="Hello"
-            description=" learning react js."
+            title="My Plan vs My Energy"
+            description="Plan: be productive. Energy: absolutely not. The audacity of my to-do list 📝😮‍💨"
             />
           </div>
           <div className="col-md-4">
             <CardProps 
-              title="Welcome to FCT" 
-              description=" hello welcome in FCT" 
+              title="Join CJP or Cry" 
+              description="Membership perks: immortality, night shift access, 0 skincare routine. Initiation: survive one slipper. Most can't even 😮‍💨" 
             />
           </div>
           <div className="col-md-4">
             <CardProps 
-              title="Hello Welcome" 
-              description="Card Properties." 
+              title="Your Goal Isn't Lazy, You're Tired" 
+              description="Rest isn't quitting. You're not behind bcuz you needed a break. Burnout isn't the price of ambition." 
             />
           </div>
         </div>
 
         
       </div>
-      <hr/> */}
+      <hr/>
+
+
       <div>
         <PassingBoolean isAdmin={false}/>
+         <hr/>
         <PassingObject info={student}/>
+         <hr/>
         <h2>Passing Array </h2>
         <PassingArray list={subjects}/>
+         <hr/>
+      </div>
+     
+       
+      <div className="accordion" id="accordionEx">
+        <AccordionEx
+        id="1"
+        title="Wht is react?"
+        content="React is a Js Library."
+        />
+      <hr/>
+        <AccordionEx
+        id="2"
+        title="Why FCT?"
+        content="B coz we go 100% on jobs. no crumbs left💼"
+        />
+      <hr/>
+        <AccordionEx
+        id="3"
+        title="Why not FCT?"
+        content="Be so for real. There's literally no reason not to join FCT"
+        />
+        <hr/>
+
       </div>
 
     </>
