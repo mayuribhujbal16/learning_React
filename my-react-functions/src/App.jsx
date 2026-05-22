@@ -7,9 +7,12 @@ import CarListArray from './component/ArrayCarEx'
 import VegitablesEx from './component/combinedArrayEx'
 import ConditionalStatement from './component/ConditionalStatement'
 import MessageProps from './component/MessageProps'
-import {StudentProps, PassingBoolean, PassingObject, PassingArray } from './component/StudentProps'
+import {StudentProps, PassingBoolean, PassingObject, PassingArray, PassingFunction, PassingImg } from './component/StudentProps'
 import CardProps from './component/CardProps'
 import AccordionEx from './component/AccordionEx'
+import img1 from './assets'
+ 
+
 
 
 
@@ -19,6 +22,10 @@ function App() {
   const subjects =["HTML","CSS","JS","Python"]
   const [count, setCount] = useState(0)
 
+  const ShowAlert = () => {
+    alert("Hello From FCT");
+  };
+   
   return (
     <>
       {/* <FunctionEx/> */}
@@ -82,6 +89,11 @@ function App() {
         <h2>Passing Array </h2>
         <PassingArray list={subjects}/>
          <hr/>
+         <h2>Passing Function </h2>
+        <PassingFunction clickMe={ShowAlert}/>
+        <hr/>
+        
+        <PassingImg photo={hero.png}/>
       </div>
      
        
@@ -104,8 +116,9 @@ function App() {
         content="Be so for real. There's literally no reason not to join FCT.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aliquid optio excepturi ut. Dolores cupiditate nam fugiat, odit, possimus impedit eaque explicabo consequatur eius unde dolorem rerum consequuntur quasi neque."
         />
         <hr/>
-
       </div>
+
+      
 
     </>
   )
