@@ -89,19 +89,19 @@ function App() {
         <AccordionEx
         id="1"
         title="Wht is react?"
-        content="React is a Js Library."
+        content="React is a Js Library. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aliquid optio excepturi ut. Dolores cupiditate nam fugiat, odit, possimus impedit eaque explicabo consequatur eius unde dolorem rerum consequuntur quasi neque."
         />
       <hr/>
         <AccordionEx
         id="2"
         title="Why FCT?"
-        content="B coz we go 100% on jobs. no crumbs left💼"
+        content="B coz we go 100% on jobs. no crumbs left💼.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aliquid optio excepturi ut. Dolores cupiditate nam fugiat, odit, possimus impedit eaque explicabo consequatur eius unde dolorem rerum consequuntur quasi neque."
         />
       <hr/>
         <AccordionEx
         id="3"
         title="Why not FCT?"
-        content="Be so for real. There's literally no reason not to join FCT"
+        content="Be so for real. There's literally no reason not to join FCT.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aliquid optio excepturi ut. Dolores cupiditate nam fugiat, odit, possimus impedit eaque explicabo consequatur eius unde dolorem rerum consequuntur quasi neque."
         />
         <hr/>
 
