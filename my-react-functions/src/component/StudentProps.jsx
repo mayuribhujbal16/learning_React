@@ -61,4 +61,12 @@ const PassingArray = ({list}) => {
     )
 };
 
-export {StudentProps,PassingBoolean,PassingObject,PassingArray}
+const PassingFunction = ({clickMe}) => (
+    <button onClick={clickMe}>Click Me</button>
+    
+);
+
+const PassingImg = ({photo}) => <img className="img-fluid" src={photo} 
+width="300"/>;
+
+export {StudentProps,PassingBoolean,PassingObject,PassingArray,PassingFunction,PassingImg}
