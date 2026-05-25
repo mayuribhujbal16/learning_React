@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const UseStateInputEx = () => {
-    const [name,setName] = useState("");5
+    const [name,setName] = useState("");
 
   return (
     <div className="containre mt-5">
