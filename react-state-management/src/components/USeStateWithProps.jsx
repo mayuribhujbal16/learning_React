@@ -13,7 +13,15 @@ const UseStateWithProps = ({ name, price }) => {
   
   return (
     <>
-      <div className="card p-3" style={{ width: "18rem" }}>
+      <div
+  className="card p-3 bg-dark text-light"
+
+  style={{
+    boxShadow: "0px 0px 20px gray",
+    borderRadius: "15px",
+    width: "18rem"
+  }}
+>
         <h3>{name}</h3>
         <p>Price : {price}</p>
         <div className="d-flex gap-3 align-items-center">

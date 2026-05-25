@@ -56,8 +56,8 @@ function App() {
 
           <div className="col-md-3">
             <UseStatePostHW
-              title="Mayuri : "
-              description="Hlw am Mayuri the Error Creator"
+              title="Mayuri"
+              description="Heyy I'm Mayuri,  I interior-design ur code with red squiggly lines👾"
               image="https://i.pinimg.com/736x/e6/17/7c/e6177c2d2484edd6a3a5c9814277bcfb.jpg"
             />
 
@@ -67,7 +67,7 @@ function App() {
 
             <UseStatePostHW
               title="Pallavi"
-              description="Hlw am Pallavi the Error Debugger"
+              description="Heyy I'm Pallavi, I squash the bugs before deployment😎"
               image="https://tse2.mm.bing.net/th/id/OIP.QomVfT9HJQ1B2iuni-Bv4wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
             />
 
@@ -77,7 +77,7 @@ function App() {
 
             <UseStatePostHW
               title="Harsh"
-              description="Hlw am Mr. Detective Darkmode🧔🏻"
+              description="Heyy I'm Mr. Detective Darkmode🕵️‍♂️ ,  I detect light mode "
               image={MrDarkmode}
             />
 
@@ -87,7 +87,7 @@ function App() {
 
             <UseStatePostHW
               title="Kaustubh"
-              description="Heyy Guyss am Shinchan👋🏻"
+              description="Hehe I'm Shinchan👋🏻, I create chaos for no reason"
               image="https://static.vecteezy.com/system/resources/previews/033/693/017/original/shinchan-cool-pose-with-sunglasses-free-vector.jpg"
             />
 
