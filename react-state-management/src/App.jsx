@@ -11,6 +11,13 @@ import UseStateWithArray from './components/UseStateWithArray'
 import UseStateHideShowPassWord from './components/USeStateWithHideShowPass'
 import UseStateWithProps from './components/USeStateWithProps'
 import UseStatePostHW from './components/UseStatePostHW'
+import UseEffectCounter from './components/UseEffectCounter'
+import UseEffectUserListApi from './components/UseEffectUserListApi'
+import UseEffectProductList from './components/UseEffectProductList'
+import UseEffectCurrentTime from './components/UseEffectCurrentTime'
+import UseEffectJavaProj from './components/UseEffectJavaProj'
+import UseStateSimpleFormHandling from './components/UseStateSimpleFormHandling'
+import MultiInputFileHandling from './components/MultiInputFileHandling'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,9 +28,14 @@ function App() {
       {/* <UseStateCounter/>
       <UseStateInputEx/> */}
       <UseStateWithBoolean/>
+      <hr/>
       <UseStateWithArray/>
+      <hr/>
       <UseStateHideShowPassWord/>
       <hr/>
+       <UseEffectCounter/>
+       <hr/>
+       
 
       <div className="container">
 
@@ -53,7 +65,7 @@ function App() {
 <div className="container mt-5">
 <h2>UseState Post Likecount Ex</h2>
         <div className="row">
-
+  
           <div className="col-md-3">
             <UseStatePostHW
               title="Mayuri"
@@ -96,6 +108,20 @@ function App() {
         </div>
 
       </div>
+      <hr/>
+      <UseEffectUserListApi/>
+      <hr/>
+      <UseEffectProductList/>
+      <hr/>
+      <UseEffectCurrentTime/>
+      <hr/>
+      <UseEffectJavaProj/>
+      <hr/>
+      <UseStateSimpleFormHandling/>
+      <hr/>
+      <MultiInputFileHandling/>
+
+     
 
     </>
   )
