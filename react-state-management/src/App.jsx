@@ -18,6 +18,8 @@ import UseEffectCurrentTime from './components/UseEffectCurrentTime'
 import UseEffectJavaProj from './components/UseEffectJavaProj'
 import UseStateSimpleFormHandling from './components/UseStateSimpleFormHandling'
 import MultiInputFileHandling from './components/MultiInputFileHandling'
+import UseRefWithInput from './components/UseRefWithInput'
+import UseRefFormHandling from './components/UseRefFormHandling'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -120,6 +122,10 @@ function App() {
       <UseStateSimpleFormHandling/>
       <hr/>
       <MultiInputFileHandling/>
+      <hr/>
+      <UseRefWithInput/>
+      <hr/>
+      <UseRefFormHandling/>
 
      
 

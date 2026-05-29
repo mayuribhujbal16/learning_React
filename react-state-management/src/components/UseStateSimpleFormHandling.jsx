@@ -17,6 +17,7 @@ const UseStateSimpleFormHandling = () => {
         }
         setError("");
         setError("Ur Name: " + name);
+        
 
     };
   return (
